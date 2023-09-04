@@ -9,7 +9,7 @@ This web-based tool allows you to rank various zones across different Sonic the 
 - Shareable URL generation for your custom zone rankings
 
 ## Setup
-1. Clone the repository: `git clone https://github.com/your-username/sonic-zone-ranking-tool.git`
+1. Clone the repository: `git clone https://github.com/dcuk7/ClassicSonicZonesRank.git`
 2. Open `index.html` in a web browser.
 
 ## Contributing
