@@ -1,0 +1,66 @@
+[
+  {
+    "game": "Sonic the Hedgehog",
+    "zones": [
+      "Green Hill Zone",
+      "Marble Zone",
+      "Spring Yard Zone",
+      "Labyrinth Zone",
+      "Star Light Zone",
+      "Scrap Brain Zone",
+      "Final Zone"
+    ]
+  },
+  {
+    "game": "Sonic the Hedgehog 2",
+    "zones": [
+      "Emerald Hill Zone",
+      "Chemical Plant Zone",
+      "Aquatic Ruin Zone",
+      "Casino Night Zone",
+      "Hill Top Zone",
+      "Mystic Cave Zone",
+      "Oil Ocean Zone",
+      "Metropolis Zone",
+      "Sky Chase Zone",
+      "Wing Fortress Zone",
+      "Death Egg Zone"
+    ]
+  },
+  {
+    "game": "Sonic the Hedgehog CD",
+    "zones": [
+      "Palmtree Panic Zone",
+      "Collision Chaos Zone",
+      "Tidal Tempest Zone",
+      "Quartz Quadrant Zone",
+      "Wacky Workbench Zone",
+      "Stardust Speedway Zone",
+      "Metallic Madness Zone"
+    ]
+  },
+  {
+    "game": "Sonic the Hedgehog 3",
+    "zones": [
+      "Angel Island Zone",
+      "Hydrocity Zone",
+      "Marble Garden Zone",
+      "Carnival Night Zone",
+      "Ice Cap Zone",
+      "Launch Base Zone"
+    ]
+  },
+  {
+    "game": "Sonic & Knuckles",
+    "zones": [
+      "Mushroom Hill Zone",
+      "Flying Battery Zone",
+      "Sandopolis Zone",
+      "Lava Reef Zone",
+      "Hidden Palace Zone",
+      "Sky Sanctuary Zone",
+      "Death Egg Zone",
+      "The Doomsday Zone"
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+/* Include the font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive; /* A font that gives a retro game feel */
+}
+
+h1 {
+    text-align: center;
+    color: #3519c2; /* Sonic's blue color */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a1a1a; /* Dark background */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.list, #left-lists {
+    border: 2px solid #3519c2; /* Sonic's blue color */
+    width: 500px;
+    min-height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.sub-item {
+    width: 450px;
+}
+
+.item {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #3519c2; /* Sonic's blue color */
+    cursor: grab;
+    background-color: #333; /* Dark gray */
+    border-radius: 5px;
+}
+
+.game-title {
+    font-weight: bold;
+    color: #FFD700; /* Golden rings */
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#share-url-button {
+    background-color: #4CAF50; /* Sonic Green */
+    border: none;
+    color: white; /* Text color */
+    padding: 15px 32px; /* Vertical and Horizontal padding */
+    text-align: center; /* Align text in the center */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline */
+    font-size: 16px; /* Text size */
+    margin: 4px 2px; /* Top/bottom and left/right margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 12px; /* Rounded corners */
+}
+
+#share-url-button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
