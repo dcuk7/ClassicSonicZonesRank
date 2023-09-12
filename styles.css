@@ -5,17 +5,22 @@ body {
     background-color: #000;
     color: #fff;
     font-family: 'Press Start 2P', cursive; /* A font that gives a retro game feel */
+    background-image: url('sonic2levelselectbg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 h1 {
     text-align: center;
-    color: #3519c2; /* Sonic's blue color */
+    color: #f8ff2d; /* Yellow color to contrast the level select bg */
 }
 
 .container {
     display: flex;
     justify-content: space-around;
-    background-color: #1a1a1a; /* Dark background */
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
     border-radius: 15px;
     padding: 20px;
     margin: 20px;
@@ -66,4 +71,23 @@ h1 {
 
 #share-url-button:hover {
     background-color: #45a049; /* Slightly darker green on hover */
+}
+
+#mute-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+#mute-button:hover {
+    background-color: #45a049;
 }

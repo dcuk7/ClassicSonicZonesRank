@@ -88,3 +88,16 @@ function loadFromURL() {
         updateRankingNumbers();
     }
 }
+
+const bgMusic = document.getElementById('bg-music');
+const muteButton = document.getElementById('mute-button');
+
+muteButton.addEventListener('click', function() {
+    if (bgMusic.muted) {
+        bgMusic.muted = false;
+        muteButton.textContent = "Mute";
+    } else {
+        bgMusic.muted = true;
+        muteButton.textContent = "Unmute";
+    }
+});
